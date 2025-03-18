@@ -17,7 +17,7 @@ Built with Python and Flask, this lightweight tool offers an intuitive interface
 
 ## 🚀 Demo
 
-The application is live and deployed on Heroku: [Visit ProQR](https://pro-qr-badc3085df09.herokuapp.com/)
+The application is live and deployed on Heroku: [Visit ProQR](https://pro-qr.app/)
 
 ## 💻 Technologies Used
 
