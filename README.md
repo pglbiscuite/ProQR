@@ -1,6 +1,6 @@
 # ProQR
 
-![ProQR Logo](https://i.ibb.co/yBQcYMpd/my-QR-Code-app-Link.png)
+![ProQR Logo](assets/app_image.png)
 
 ## Overview
 
