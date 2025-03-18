@@ -40,9 +40,8 @@ The application is live and deployed on Heroku: [Visit ProQR](https://pro-qr-bad
 ### Prerequisites
 
 - Python 3.6+
-- pip package manager
-- From io import BytesIO
-- From base64 import b64encode
+- pip Package Manager
+- qrcode Package
 
 ### Installation
 
