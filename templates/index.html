@@ -23,15 +23,17 @@
 
     <form action="/" method="POST">
 
-        <input type="text" name="link">
+        <input type="text" name="link" placeholder="Enter your URL here">
         <button type="submit">Generate QR</button>
         
     </form>
 
+
+
     {% if data %}
     <div class="generated">
 
-        <img src="{{data}}" alt="" />
+        <img src="{{data}}" alt="Generated QR Code" />
         
         
     </div>
@@ -70,7 +72,7 @@ body {
 .title {
     margin-top: 100px;
     margin-bottom: 30px;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -111,8 +113,9 @@ form button {
     justify-content: center;
     align-items: center;
     
+    
     margin: 0;
-        margin-top: 110px;
+        margin-top: 69px;
         padding: 1rem;
         box-sizing: border-box;
 }
@@ -124,9 +127,19 @@ form button {
     justify-content: center;
     align-items: center;
     color: #ffdf00;
-    margin: 0;
-        box-sizing: border-box;
+    /* margin: 0;
+        box-sizing: border-box; */
+    text-align: center;
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
 }
 
-   
+.title h1 {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+        
+.title h2 {
+            font-size: clamp(1.2rem, 3vw, 1.5rem);
+}   
 </style>
