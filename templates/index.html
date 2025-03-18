@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -9,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
 
     <title>QR Code Generator</title>
+
 </head>
 
 
 <body>
+
     <div class="title">    
         <h1>Welcome to our QR Code Geberator</h1>
         <h2>Insert a Link Bellow to Generate a QR Code</h2>
@@ -22,13 +25,25 @@
 
         <input type="text" name="link">
         <button type="submit">Generate QR</button>
-
+        
     </form>
+
+    {% if data %}
+    <div class="generated">
+
+        <img src="{{data}}" alt="" />
+        <p>Here is the QR Code we Generate for You.</p>
+
+    </div>
+    {% endif %}
+
 
 </body>
 
 
 </html>
+
+
 
 
 <style>
@@ -77,6 +92,17 @@ form button {
     padding: 1rem 1.5rem;
     cursor: pointer;
     border-radius: 0.5rem;
+}
+
+.generated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffdf00;
+    margin: 0;
+        padding: 2rem;
+        box-sizing: border-box;
 }
 
    
