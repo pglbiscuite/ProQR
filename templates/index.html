@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+
+    <title>QR Code Generator</title>
+</head>
+
+
+<body>
+    <div class="title">    
+        <h1>Welcome to our QR Code Geberator</h1>
+        <h2>Insert a Link Bellow to Generate a QR Code</h2>
+    </div>
+
+    <form action="/" method="POST">
+
+        <input type="text" name="link">
+        <button type="submit">Generate QR</button>
+
+    </form>
+
+</body>
+
+
+</html>
+
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+html
+body {
+    margin: 0rem 10rem;
+    font-family: "Jersey 15", sans-serif;
+    background: #2f2f2f;
+}
+.title {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content:  center;
+    align-items: center;
+    color: #ffdf00;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+form input {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    background: black;
+    color: #dadada;
+    border: 10;
+}
+
+form button {
+    font-size: 1.2rem;
+    font-family: "Jersey 15";
+    background: #ffdf00;
+    border: none;
+    color: #2f2f2f;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+   
+</style>
