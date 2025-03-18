@@ -1,6 +1,6 @@
 # ProQR
 
-![ProQR Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAFyAQAAAADAX2ykAAACZklEQVR4nO2aS2rdQBBFT0WCN2ztwEuRdmaypOygtRQvwKAeGiRuBt36PJvgGGTldagaCCSdQcGluutn4is2/vgSDs4777zzzjvv/J94K9Zi1oFZt5gNgA1p/Tdc6I/zJ/O9JGkCxWQG6SZFFgMaSZLu+e/2x/mT+bRFaJih15uZ2U2KgJm1V/vj/Dl8++7doEVj94pIndH/utYf57+Z7zVjzy8tNtB8LI4f3n/n72yN3yAgATl0EUZ4MwCOKj+a/87/FT+amVkH9C832ZBaIN0ELDl9vtYf50/i7d0RbNDMwNJCmD7g3p+skreBUusCi9lAU+qjLbBtuNAf58/iycVtPzWCMKO4ZVX522a9JMVH89/5T0y7RRpJUyPFMCNlfdf+hutbI38fv8oNjdLJ2kXOPQ/Xtz6eY3By1DL/jUGSNJc4d30r4zk2l8OMpBn6iU3k7Tp2fSvkV33DnBOqXW7FsOvb+P1bM68IMD7NMHZkpW1gMcV13HCpP86fxW/5cymNSlaVX1kHh37/1s3bsKVW0OT+pA1BUkze36iZX+N3r3WnZp30r6lzrp78/q2ZD2+Wtdz6k5BabEgtisHv36p5s249le1J22rOYoxd+XupP86fxR/7k6VSknL9C5QieHv4+Vwnv+9PQjLTz47S5CC1MPr+Va38sT+5jRb2cdIaul4fVcpv8wUOA8FDJzpb8PP5P+EVg2TP02JlPycPkf6ZP86fzSfLXcnyoBGj71/Vyn/Yn+ynDutj+WxgiPC6co/mv/Of2HE+SHM36Q/r4N/zq2r59/uTn5jvTzrvvPPOO+/8Cfxv4TDcTXEzmM4AAAAASUVORK5CYII=)
+![ProQR Logo](https://i.ibb.co/yBQcYMpd/my-QR-Code-app-Link.png)
 
 ## Overview
 
@@ -41,6 +41,7 @@ The application is live and deployed on Heroku: [Visit ProQR](https://pro-qr-bad
 
 - Python 3.6+
 - pip Package Manager
+- flask Package
 - qrcode Package
 
 ### Installation
